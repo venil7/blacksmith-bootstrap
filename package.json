@@ -1,0 +1,21 @@
+{
+  "author": "DarkRuby",
+  "name": "blacksmith-bootstrap",
+  "description": "Bootstrap template for blacksmith",
+  "version": "0.1.0",
+  "homepage": "https://github.com/venil7/blacksmith-bootstrap.git",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:venil7/blacksmith-bootstrap.git"
+  },
+  "dependencies": {
+    "http-server": "~0.5.1",
+    "blacksmith":"1.1.2"
+  },
+  "scripts": {
+    "start": "node ./bin/server"
+  },
+  "engines": {
+    "node": "0.8.x"
+  }
+}
