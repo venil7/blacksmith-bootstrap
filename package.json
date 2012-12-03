@@ -3,7 +3,7 @@
   "name": "blacksmith-bootstrap",
   "description": "Bootstrap template for blacksmith",
   "version": "0.1.0",
-  "homepage": "https://github.com/venil7/blacksmith-bootstrap.git",
+  "homepage": "http://darkruby.co.uk",
   "repository": {
     "type": "git",
     "url": "git@github.com:venil7/blacksmith-bootstrap.git"
@@ -13,7 +13,7 @@
     "blacksmith":"1.1.2"
   },
   "scripts": {
-    "start": "node ./bin/server"
+    "start": "blacksmith ./ && node ./bin/server"
   },
   "engines": {
     "node": "0.8.x"
